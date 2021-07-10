@@ -38,6 +38,7 @@ Projects
 * [k8s-platform-lcm](https://github.com/arminc/k8s-platform-lcm) - A faster and easier way to manage the lifecycle of applications and tools, running and living around your Kubernetes platform
 * [Pixie](https://github.com/pixie-labs/pixie) - Live-debug multi-cluster K8s environments without changing code and moving data off-cluster.
 * [KubeEdge](https://kubeedge.io) - An open platform to enable Edge computing
+* [k8s-image-swapper](https://github.com/estahn/k8s-image-swapper) - Mirror images into your own registry and swap image references automatically.
 
 ## Package Managers
 
@@ -106,6 +107,7 @@ Projects
 * [predator](https://github.com/Zooz/predator) - Distributed performance testing platform for Kubernetes
 * [Octopus](https://github.com/kyma-incubator/octopus) - Octopus is a testing framework that allows you to run integration tests defined as Docker images on a Kubernetes cluster.
 * [KubePug](https://github.com/rikatz/kubepug) - Kubernetes Pre-Upgrade Checker
+* [KubeLibrary](https://github.com/devopsspiral/KubeLibrary) - RobotFramework library for testing Kubernetes cluster
 
 ## Continuous Delivery
 
@@ -114,7 +116,6 @@ Projects
 * [Jenkins](https://jenkins.io)
    * [Jenkins-Kubernetes Plugin](https://github.com/jenkinsci/kubernetes-plugin) by [Carlos Sanchez](https://www.twitter.com/csanchez)
    * [Automated Image Builds with Jenkins, Packer, and Kubernetes](https://cloudplatform.googleblog.com/2015/05/Automated-Compute-Engine-and-Docker-Image-Builds-with-Jenkins-Packer-and-Kubernetes.html)
-   * [On-demand Jenkins slaves with Kubernetes and the Google Container Engine](http://www.cloudbees.com/blog/demand-jenkins-slaves-kubernetes-and-google-container-engine)
    * [Lab: Build a Continuous Deployment Pipeline with Jenkins and Kubernetes](https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes)
    * [Jenkins Operator - Kubernetes native Jenkins operator](https://github.com/jenkinsci/kubernetes-operator)
 * [Jenkins X](http://jenkins-x.io/) - automated CI/CD for Kubernetes with GitOps Promotion and Preview Environments on Pull Requests using best of breed OSS tools like: Jenkins, Helm, Skaffold, Kaniko, Knative Build, Knative Pipeline and Prow
@@ -130,11 +131,9 @@ Projects
 * [Keel](https://keel.sh/)
 * [Kit](http://invisionapp.github.io/kit/)
 * [Kontinuous](https://github.com/AcalephStorage/kontinuous)
-* [KubeCI](https://github.com/kubeciio)
 * [Razee](https://github.com/razee-io/Razee)
 * [Shippable](http://blog.shippable.com/topic/kubernetes)
 * [Shipper](https://github.com/bookingcom/shipper) - Kubernetes native multi-cluster canary or blue-green rollouts using Helm.
-* [Spinnaker](http://www.spinnaker.io/blog/deploy-to-kubernetes-using-spinnaker)
 * [Vili](https://github.com/airware/vili)
 * [Weave Flux – GitOps reconcoliation operator](https://github.com/weaveworks/flux)
 * [Wercker](http://blog.wercker.com/topic/kubernetes)
@@ -236,7 +235,6 @@ Projects
 * [Cisco ACI](https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/kb/b_Kubernetes_Integration_with_ACI.html) - CNI plugin from Cisco support ACI fabrics
 * [CNI-Genie](https://github.com/Huawei-PaaS/CNI-Genie)
 * [cni-ipvlan-vpc-k8s](https://github.com/lyft/cni-ipvlan-vpc-k8s)
-* [Contiv](http://contiv.github.io/)
 * [External DNS](https://github.com/kubernetes-incubator/external-dns) - To control DNS records dynamically via Kube resources
 * [Goldpinger](https://github.com/bloomberg/goldpinger) display, monitor and alert on inter-cluster connectivity
 * [illuminatio](https://github.com/inovex/illuminatio) is a tool for automatically testing kubernetes network policies
@@ -291,6 +289,7 @@ Projects
 * [Kubeapps](https://github.com/kubeapps/kubeapps) - A web-based UI for deploying and managing applications in Kubernetes clusters
 * [Kubevious](https://github.com/kubevious/kubevious) - An open source UI to make Kubernetes configuration and state obvious and safe.
 * [Octant](https://github.com/vmware-tanzu/octant) - A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
+* [KubeHelper](https://github.com/KubeHelper/kubehelper) - KubeHelper - simplifies many daily Kubernetes cluster tasks through a web interface.
 
 ## Desktop applications
 
@@ -301,7 +300,6 @@ Projects
 ## Mobile applications
 
 * [Cabin](https://github.com/bitnami/cabin)
-* [Cockpit](http://cockpit-project.org/guide/latest/feature-kubernetes.html)
 
 ## API/CLI adaptors
 
@@ -321,6 +319,7 @@ Projects
 * [Kubefuse](http://opencredo.com/introducing-kubefuse-file-system-kubernetes/)
 * [kubens](https://github.com/ahmetb/kubectx) - switch between namespaces on kubectl
 * [kubensx](https://github.com/shyiko/kubensx) - Simpler Cluster/User/Namespace switching for Kubernetes (featuring interactive mode and wildcard/fuzzy matching).
+* [kubent](https://github.com/doitintl/kube-no-trouble) - Easily check your cluster for use of deprecated APIs
 * [kubeplay](https://github.com/errordeveloper/kubeplay)
 * [Kubesh](https://github.com/projectodd/kubernetes/blob/kubesh/cmd/kubesh/README.md) - Work around kubectl
 * [Kui](https://github.com/IBM/kui) - Hybrid CLI/GUI alternative to kubectl
@@ -379,7 +378,6 @@ Projects
 * [kubeletctl](https://github.com/cyberark/kubeletctl) - A client for kubelet with advanced capabilities like scanning for pods vulnerable for RCE
 * [Aquasec](http://blog.aquasec.com/topic/kubernetes)
 * [Authenticator](https://github.com/kubernetes-sigs/aws-iam-authenticator) - A tool for using AWS IAM credentials to authenticate to a Kubernetes cluster
-* [Calico Network Policy (from Tigera)](https://docs.projectcalico.org/master/introduction/) - Widely adopted open source implementation unifying Kubernetes Network Policy and Istio Application Policy.
 * [Deepfence Enterprise](https://deepfence.io) - Full life cycle Cloud Native Workload Protection platform for kubernetes, virtual machines and serverless.
 * [Deepfence Threat Mapper](https://github.com/deepfence/ThreatMapper) - Powerful runtime vulnerability scanner for kubernetes, virtual machines and serverless.
 * [Dex](https://github.com/dexidp/dex) - OpenID and OAuth for Kubernetes
@@ -395,7 +393,7 @@ Projects
 * [Pomerium](http://www.pomerium.io/) - a zero-trust identity-aware access proxy inspired by BeyondCorp.
 * [Rakkess](https://github.com/corneliusweig/rakkess) - Kubectl plugin to show an access matrix for all available resources.
 * [Sysdig Falco](https://sysdig.com/opensource/falco/)
-* [Sysdig Secure](http://www.sysdig.com/product/secure)
+* [Sysdig Secure](http://www.sysdig.com/products/secure)
 * [Tigera Secure Cloud Edition](https://www.tigera.io/tigera-secure-ce/)
 * [Tigera Secure Enterprise Edition](https://www.tigera.io/tigera-secure-ee/)
 * [Trireme](http://github.com/aporeto-inc/trireme-kubernetes)
@@ -415,6 +413,7 @@ Projects
 * [Linode NodeBalancer Ingress](https://github.com/linode/linode-cloud-controller-manager)
 * [MetalLB](https://metallb.universe.tf/) - load-balancer implementation for bare metal Kubernetes clusters, using standard routing protocols.
 * [Porter](https://github.com/kubesphere/porter) - a load balancer which is designed for a bare metal Kubernetes cluster. It's implemented by physical switch, and uses BGP and ECMP to achieve optimal performance and HA.
+* [PureLB](http://purelb.io) - open-source load-balancer orchestrator for Kubernetes clusters. It uses standard Linux networking and routing protocols, and works with the operating system to announce service addresses.
 * [NGINX Ingress Controller](https://github.com/kubernetes/ingress-nginx)
 * [Nginx Plus](http://www.nginx.com/blog/load-balancing-kubernetes-services-nginx-plus/)
 * [Skipper](https://github.com/zalando/skipper) - HTTP router and reverse proxy for service composition, including use cases like Kubernetes Ingress
@@ -457,11 +456,10 @@ Projects
 ## YAML/JSON Config
 
 * [cdk8s](https://cdk8s.io) - Define Kubernetes apps and reusable components using familiar programming languages
-* [kompose](https://github.com/kubernetes/kompose)
-* [ksonnet-lib](https://github.com/ksonnet/ksonnet-lib)
+* [kompose](https://github.com/kubernetes/kompose) - Translates Docker Compose file into Kubernetes resources
 * [kube-libsonnet](https://github.com/bitnami-labs/kube-libsonnet/blob/master/kube.libsonnet) - Generic library of Kubernetes objects for Jsonnet/Kubecfg with object to array mapping for painless overrides.
-* [kubegen](https://github.com/errordeveloper/kubegen)
-* [kubeval](https://github.com/garethr/kubeval)
+* [kubegen](https://github.com/errordeveloper/kubegen) - Reduces the verbosity of Kubernetes resource definitions, and adds macros for templating
+* [kubeval](https://github.com/garethr/kubeval) - CLI tool for validating a Kubernetes YAML or JSON configuration file
 
 ## Static Analysis
 
@@ -520,7 +518,7 @@ Persistent Volume Providers
 * [Hitachi](https://knowledge.hitachivantara.com/Documents/Adapters_and_Drivers/Storage_Adapters_and_Drivers/Containers/1.0/Storage_Plug-in_for_Containers_Quick_Reference_Guide_v1.0.0)
 * [HPE](https://github.com/hpe-storage/dory)
 * [Kube-Aliyun](https://github.com/kubeup/kube-aliyun)
-* [Linode](https://www.linode.com/blockstorage)
+* [Linode](https://www.linode.com/products/block-storage/)
 * [Microsoft](https://github.com/Microsoft/K8s-Storage-Plugins)
 * [NetApp Trident](https://github.com/NetApp/trident)
 * [OpenEBS](http://github.com/openebs/openebs/)

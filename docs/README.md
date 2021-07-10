@@ -4,7 +4,7 @@ Awesome-Kubernetes
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Build Status](https://semaphoreci.com/api/v1/ramitsurana/awesome-kubernetes/branches/master/badge.svg)](https://semaphoreci.com/ramitsurana/awesome-kubernetes)
 [![License](https://img.shields.io/badge/License-CC%204.0-brightgreen.svg?style=flat-square)](http://creativecommons.org/licenses/by-nc/4.0/)
-[![Docker Build Status](https://img.shields.io/docker/build/ramitsurana/awesome-kubernetes.svg?style=flat-square)](https://hub.docker.com/r/ramitsurana/awesome-kubernetes)
+[![Python application](https://github.com/ramitsurana/awesome-kubernetes/actions/workflows/main.yml/badge.svg)](https://github.com/ramitsurana/awesome-kubernetes/actions/workflows/main.yml)
 [![Slack Widget](https://img.shields.io/badge/Slack-Channel-blue.svg?style=flat-square)](https://kubernetes.slack.com/messages/awesome-kubernetes)
 [![Documentation Status](https://readthedocs.org/projects/awesome-kubernetes-by-ramitsurana/badge/?version=latest)](https://awesome-kubernetes-by-ramitsurana.readthedocs.io/en/latest/?badge=latest)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ramitsurana/awesome-kubernetes/master)
@@ -18,7 +18,7 @@ A curated list for awesome kubernetes sources inspired by [@sindresorhus' awesom
 > -- Michael Jordan
 
 Without the help from these [amazing contributors](https://github.com/ramitsurana/awesome-kubernetes/graphs/contributors),
-building this awesome-repo would never has been possible. Thank You very much guys !!
+building this awesome-repo would never has been possible. Thank You very much everyone !!
 
 **Thanks to Gitbook.This awesome list can now be downloaded and read in the form of a book. Check it out -->  https://ramitsurana.gitbook.io/awesome-kubernetes/docs .Keep Learning Keep Sharing !!**
 
@@ -85,6 +85,9 @@ Starting Point
 * [Setting Up a Kubernetes Cluster on Ubuntu 18.04](https://mherman.org/blog/2018/08/20/setting-up-a-kubernetes-cluster-on-ubuntu/)
 * [Cloud Native Landscape](https://landscape.cncf.io/)
 * [The Kubernetes Handbook](https://www.freecodecamp.org/news/the-kubernetes-handbook/) by [Farhan Hasin Chowdhury](https://twitter.com/frhnhsin)
+* [Bootstrapping Microservices](https://www.manning.com/books/bootstrapping-microservices-with-docker-kubernetes-and-terraform) by [Ashley Davis](https://twitter.com/ashleydavis75)
+* [Kubernetes Native Microservices with Quarkus, and MicroProfile](https://www.manning.com/books/kubernetes-native-microservices-with-quarkus-and-microprofile) by [John Clingan](https://twitter.com/jclingan) and [Ken Finnigan](https://twitter.com/kenfinnigan)
+* [How to Deploy a REST API in Kubernetes](https://www.loginradius.com/blog/async/rest-api-kubernetes/)
 
 Contributing
 =======================================================================

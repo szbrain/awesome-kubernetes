@@ -2,13 +2,14 @@ Managed Kubernetes
 =======================================================================
 
   - [Platform9](http://platform9.com)
-  - [OpenShift Online](http://www.openshift.com/devpreview/index.html)
+  - [OpenShift Online](https://www.openshift.com/products/online/)
   - [Eldarion Cloud](http://eldarion.cloud/)
-  - [NetApp Kubernetes Service (formerly StackPoint Cloud)](https://cloud.netapp.com/kubernetes-service)
   - [Hasura](https://hasura.io/)
-  - [ELASTX](https://www.elastx.se/)
+  - [ELASTX](https://www.elastx.se/en/kubernetes/)
   - [Nirmata](https://www.nirmata.com/)
   - [Spectro Cloud](https://www.spectrocloud.com)
+  - [Flant Managed Kubernetes](https://flant.com/services/managed-kubernetes-as-a-service)
+  - [Giant Swarm](https://www.giantswarm.io/)
 
 ### [Cluster Managers](#cluster-manager)
 
@@ -30,7 +31,7 @@ Managed Kubernetes
   - [Draft](http://draft.sh) - A tool for developers to create cloud native applications with Kubernetes
   - [Eclipse Che](https://github.com/eclipse/che) - Cloud development workspaces with SSH and multi-user support
   - [Garden](https://garden.io) - Orchestrates your development workflows to make developing microservices faster and easier
-  - [Humanitec](https://humanitec.com) - The continuous delivery API
+  - [Humanitec](https://humanitec.com) - The fastest way to build your Internal Developer Platform
   - [Knative](https://github.com/knative/) - Platform to build, deploy, and manage modern serverless workloads
   - [Okteto](https://github.com/okteto/okteto) - Develop directly in any Kubernetes cluster. No commit, build or push required
   - [Mantl](https://github.com/mantl/mantl) - A modern platform for rapidly deploying globally distributed services
